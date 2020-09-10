@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/multitwitter/static/css/main.83435366.chunk.css",
+    "main.js": "/multitwitter/static/js/main.d5b4db3f.chunk.js",
+    "main.js.map": "/multitwitter/static/js/main.d5b4db3f.chunk.js.map",
+    "runtime-main.js": "/multitwitter/static/js/runtime-main.5fe82d37.js",
+    "runtime-main.js.map": "/multitwitter/static/js/runtime-main.5fe82d37.js.map",
+    "static/js/2.3dfaffa2.chunk.js": "/multitwitter/static/js/2.3dfaffa2.chunk.js",
+    "static/js/2.3dfaffa2.chunk.js.map": "/multitwitter/static/js/2.3dfaffa2.chunk.js.map",
+    "index.html": "/multitwitter/index.html",
+    "precache-manifest.2b9cb5e595d6410229b6ce83e2c6f51d.js": "/multitwitter/precache-manifest.2b9cb5e595d6410229b6ce83e2c6f51d.js",
+    "service-worker.js": "/multitwitter/service-worker.js",
+    "static/css/main.83435366.chunk.css.map": "/multitwitter/static/css/main.83435366.chunk.css.map",
+    "static/js/2.3dfaffa2.chunk.js.LICENSE.txt": "/multitwitter/static/js/2.3dfaffa2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5fe82d37.js",
+    "static/js/2.3dfaffa2.chunk.js",
+    "static/css/main.83435366.chunk.css",
+    "static/js/main.d5b4db3f.chunk.js"
+  ]
+}
