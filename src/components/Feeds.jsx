@@ -1,12 +1,15 @@
 import React from 'react';
-import TwitterFeeds from "./TwitterFeeds.jsx";
+import Cards from "./Cards.jsx";
 import "./style.css";
 
 class Feeds extends React.Component {
     render() {
         return(
             <div className="row">
-                <TwitterFeeds username={this.props.username}/>
+                <Cards/>
+                <Cards/>
+                <Cards/>
+                <Cards/>
             </div>
         )
     }

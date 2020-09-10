@@ -1,4 +1,26 @@
 @import url(https://realtechnerd.github.io/button.css/style.css);
+* {
+    box-sizing: border-box;
+  }
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+    background-color: #d3d3d3;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: lightblue;
+    border-radius: 10px;
+  }
+  html, body {
+    overflow-x: hidden;
+  }
 .Header {
     overflow: hidden;
     padding: 15px;
@@ -11,69 +33,60 @@
     );
     font-family: Inter !important;
 }
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
 .Header h1 {
     display: inline-block;
-    padding: 5px;
+    padding: 2.5px;
 }
 .Header p {
     display: inline-block;
-    padding: 5px;
+    padding: 2.5px;
 }
-.Add {
+.Footer {
     overflow: hidden;
-    background-color: #f1f1f1;
-    padding: 12.5px;
-    font-family: Inter;
+    padding: 15px;
+    color: #fff;
+    background-image: linear-gradient(
+        -141deg, 
+        #9fb8ad 0%, 
+        #1fc8db 51%, 
+        #2cb5e8 75%
+    );
+    font-family: Inter !important;
 }
-.Add input {
-    margin-left: 5px;
+.Footer h1 {
+    display: inline-block;
+    padding: 2.5px;
+}
+.Footer a {
+    display: inline-block;
+    padding: 2.5px;
+    color: #fff;
+    text-decoration: none;
+}
+#username {
     padding: 10px;
     font-size: 12.5pt;
     outline: none !important;
-    border-radius: 100rem;
+    border-radius: 10px;
     border: 0px solid #000;
     background-color: #d3d3d3;
     font-family: inter;
+    width: 100%;
 }
-@media only screen and (max-width: 1000px) {
-    .Card {
-      width: 100%;
-      margin-left: 0px !important;
-    }
-  }
-.a {
-    margin-left: 5px;
-}
-* {
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  /* Float four columns side by side */
   .column {
     float: left;
     width: 25%;
     padding: 0 10px;
   }
   
-  /* Remove extra left and right margins, due to padding in columns */
   .row {margin: 0 -5px; margin-top: 10px;}
   
-  /* Clear floats after the columns */
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
   
-  /* Style the counter cards */
   .card {
     padding: 7.5px;
     text-align: center;
@@ -83,7 +96,6 @@ html, body {
     margin-bottom: 20px;
   }
   
-  /* Responsive columns - one column layout (vertical) on small screens */
   @media screen and (max-width: 875px) {
     .column {
       width: 100%;

@@ -1,13 +1,15 @@
 import React from 'react';
 import './App.css';
 import Header from "./components/Header.jsx";
-import Input from "./components/Input.jsx"
+import Footer from "./components/Footer.jsx";
+import Feeds from "./components/Feeds.jsx";
 
 function App() {
   return (
     <div>
       <Header/>
-      <Input/>
+      <Feeds/>
+      <Footer/>
     </div>
   );
 }
